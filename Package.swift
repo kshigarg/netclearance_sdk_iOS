@@ -1,4 +1,3 @@
-swift-tools-version:5.3.2
 import PackageDescription
 let package = Package(
     name: "NetclearanceSDK",
