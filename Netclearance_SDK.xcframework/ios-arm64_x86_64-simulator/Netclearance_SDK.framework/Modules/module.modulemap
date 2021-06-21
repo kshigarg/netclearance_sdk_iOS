@@ -1,0 +1,11 @@
+framework module Netclearance_SDK {
+  umbrella header "Netclearance_SDK.h"
+
+  export *
+  module * { export * }
+}
+
+module Netclearance_SDK.Swift {
+    header "Netclearance_SDK-Swift.h"
+    requires objc
+}

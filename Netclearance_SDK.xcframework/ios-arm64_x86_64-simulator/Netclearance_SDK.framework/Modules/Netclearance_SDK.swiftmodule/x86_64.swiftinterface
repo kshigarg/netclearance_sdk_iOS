@@ -1,0 +1,204 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-module-flags: -target x86_64-apple-ios14.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Netclearance_SDK
+import CoreBluetooth
+import Foundation
+@_exported import Netclearance_SDK
+import Swift
+public func checkIfPermissionsGranted(completion: @escaping (Netclearance_SDK.CompleteCallback) -> Swift.Void)
+public protocol WriteValueObserver : AnyObject {
+  func didWriteValue(device: Netclearance_SDK.NCDevice, value: Foundation.Data?, characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
+}
+public protocol RSSIObserver : AnyObject {
+  func didReadRSSI(device: Netclearance_SDK.NCDevice, RSSI: Foundation.NSNumber?, error: Swift.Error?)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NCBluetoothManager : ObjectiveC.NSObject {
+  public var isBluetoothON: Swift.Bool {
+    get
+  }
+  public var isBLESupported: Swift.Bool {
+    get
+  }
+  public func startScan(ServiceUUIDs: [CoreBluetooth.CBUUID], ActiveSearching: Swift.Bool, Duration: Foundation.TimeInterval, scanCallback: @escaping (Netclearance_SDK.ScanningCallback) -> Swift.Void)
+  public func stopScan()
+  public var isBluetoothAccessGranted: Swift.Bool {
+    get
+  }
+  public var isScanning: Swift.Bool {
+    get
+  }
+  public func register(connectionObserver: Netclearance_SDK.ConnectionObserver)
+  public func unregister(connectionObserver: Netclearance_SDK.ConnectionObserver)
+  public func register(rssiObserver: Netclearance_SDK.RSSIObserver)
+  public func unregister(rssiObserver: Netclearance_SDK.RSSIObserver)
+  public func register(scanningObserver: Netclearance_SDK.ScanningObserver)
+  public func unregister(scanningObserver: Netclearance_SDK.ScanningObserver)
+  public func register(logObserver: Netclearance_SDK.LogObserver)
+  public func unregister(logObserver: Netclearance_SDK.LogObserver)
+  public func register(writeValueObserver: Netclearance_SDK.WriteValueObserver)
+  public func unregister(writeValueObserver: Netclearance_SDK.WriteValueObserver)
+  public func register(readValueObserver: Netclearance_SDK.ReadValueObserver)
+  public func unregister(readValueObserver: Netclearance_SDK.ReadValueObserver)
+  @objc deinit
+}
+public enum NCDError {
+  case s_error_bluetooth_unavailable
+  case s_error_multiple_scan_not_supported
+  case s_error_multiple_connect_not_supported
+  case s_error_multiple_disconnect_not_supported
+  case s_error_connection_timedout
+  case s_error_not_connected
+  case s_error_missing_service(CoreBluetooth.CBUUID)
+  case s_error_missing_characteristic(CoreBluetooth.CBUUID)
+  case s_error_cancelled
+  case s_error_explicit_disconnect
+  case s_error_unexpected_disconnect
+  case s_error_disconnect_queued
+  case s_error_listen_timedout
+  case s_error_read_failed
+  case s_error_write_failed
+  case s_error_missing_data
+  case s_error_data_outof_bounds(start: Swift.Int, length: Swift.Int, count: Swift.Int)
+  case s_error_unexpected_peripheral
+  case s_error_allow_duplicates_inbackground_not_supported
+  case s_error_missing_service_identifiers_inbackground
+  case s_error_background_taskrunning
+  case s_error_multiple_background_task_not_supported
+  case s_error_indefinite_flush
+  case s_error_stopped
+  case s_error_background_restoration_in_progress
+  case s_error_startup_background_task_expired
+  case s_error_multiple_listen_trapped
+  case s_error_multiple_listen_replaced
+  case s_error_too_much_data(expected: Swift.Int, received: Foundation.Data)
+  case s_error_ble_not_supported
+  case s_error_location_permission_denied
+  case s_error_location_unavailable
+  case s_error_ble_scanner_null
+  case s_error_set_descriptor_fail
+  case s_error_missing_descriptor
+  case s_error_read_descriptor_fail
+  case s_error_write_descriptor_fail
+  case s_error_service_discover_fail
+  case s_error_exception
+  case s_error_unauthorised
+  case s_error_operation_timedout
+}
+extension NCDError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension NCDError : Foundation.CustomNSError {
+  public static var errorDomain: Swift.String {
+    get
+  }
+  public var errorCode: Swift.Int {
+    get
+  }
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+}
+public protocol ReadValueObserver : AnyObject {
+  func didUpdateValue(device: Netclearance_SDK.NCDevice, value: Foundation.Data?, characteristic: CoreBluetooth.CBCharacteristic, error: Swift.Error?)
+}
+extension NSData {
+  public var hexadecimalString: Foundation.NSString {
+    get
+  }
+}
+public enum CurrentOperation {
+  case discover
+  case discoverService
+  case discoverCharacteristic
+  case discoverDescriptor
+  case read
+  case write
+  case readDescriptor
+  case writeDescriptor
+  case noOperation
+  public static func == (a: Netclearance_SDK.CurrentOperation, b: Netclearance_SDK.CurrentOperation) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+@objc @_hasMissingDesignatedInitializers public class NCDevice : ObjectiveC.NSObject {
+  final public let advertisement_data: [Swift.String : Any]
+  final public let device_name: Swift.String
+  final public let peripheral: CoreBluetooth.CBPeripheral
+  final public let peripheral_uuid: Foundation.UUID
+  public var rssi: Foundation.NSNumber
+  public var average_rssi: Foundation.NSNumber
+  public var is_connected: Swift.Bool {
+    get
+  }
+  public var timeout: Swift.Double {
+    get
+    set
+  }
+  public var device_state: CoreBluetooth.CBPeripheralState {
+    get
+  }
+  public var services: [CoreBluetooth.CBService] {
+    get
+  }
+  public var characteristics: [CoreBluetooth.CBCharacteristic] {
+    get
+  }
+  public func connect(timeout_seconds: Foundation.TimeInterval, connectCallback: @escaping (Netclearance_SDK.CompleteCallback) -> Swift.Void)
+  public func disconnect(disconnectCallback: @escaping (Netclearance_SDK.CompleteCallback) -> Swift.Void)
+  public func discover(discoverCallback: @escaping (Netclearance_SDK.DiscoverServicesCallback) -> Swift.Void)
+  public func discoverServices(serviceUUIDs: [CoreBluetooth.CBUUID], discoverCallback: @escaping (Netclearance_SDK.DiscoverServicesCallback) -> Swift.Void)
+  public func discoverChannels(serviceUUID: CoreBluetooth.CBUUID, discoverCharacteristicCallback: @escaping (Netclearance_SDK.DiscoverCharacteristicCallback) -> Swift.Void)
+  public func discoverDescriptors(characteristicUUID: CoreBluetooth.CBUUID, discoverDescriptorCallback: @escaping (Netclearance_SDK.DiscoverDescriptorCallback) -> Swift.Void)
+  public func readValue(serviceUUID: CoreBluetooth.CBUUID, characteristicUUID: CoreBluetooth.CBUUID, getValueCallback: @escaping (Netclearance_SDK.ReadValueCallback) -> Swift.Void)
+  public func readDescriptorValue(serviceUUID: CoreBluetooth.CBUUID, characteristicUUID: CoreBluetooth.CBUUID, descUUID: CoreBluetooth.CBUUID, getValueCallback: @escaping (Netclearance_SDK.ReadValueCallback) -> Swift.Void)
+  public func wrieValue(serviceUUID: CoreBluetooth.CBUUID, characteristicUUID: CoreBluetooth.CBUUID, value: Foundation.Data, writeWithResponse: Swift.Bool, completeCallback: @escaping (Netclearance_SDK.CompleteCallback) -> Swift.Void)
+  public func writeDescriptorValue(serviceUUID: CoreBluetooth.CBUUID, characteristicUUID: CoreBluetooth.CBUUID, descUUID: CoreBluetooth.CBUUID, value: Foundation.Data, completeCallback: @escaping (Netclearance_SDK.CompleteCallback) -> Swift.Void)
+  public func subscribe(serviceUUID: CoreBluetooth.CBUUID, characteristicUUID: CoreBluetooth.CBUUID, descUUID: CoreBluetooth.CBUUID, enable: Swift.Bool, completeCallback: @escaping (Netclearance_SDK.CompleteCallback) -> Swift.Void)
+  @objc deinit
+  @objc override dynamic public init()
+}
+public enum CompleteCallback {
+  case successBlock
+  case failure(Netclearance_SDK.NCDError)
+}
+public enum ScanningCallback {
+  case successBlock(Netclearance_SDK.NCDevice)
+  case failure(Netclearance_SDK.NCDError)
+}
+public enum DiscoverCharacteristicCallback {
+  case successBlock([CoreBluetooth.CBCharacteristic])
+  case failure(Netclearance_SDK.NCDError)
+}
+public enum DiscoverDescriptorCallback {
+  case successBlock([CoreBluetooth.CBDescriptor])
+  case failure(Netclearance_SDK.NCDError)
+}
+public enum DiscoverServicesCallback {
+  case successBlock([CoreBluetooth.CBService])
+  case failure(Netclearance_SDK.NCDError)
+}
+public enum ReadValueCallback {
+  case successBlock(Foundation.Data)
+  case failure(Netclearance_SDK.NCDError)
+}
+public protocol LogObserver : AnyObject {
+  func debug(_ text: Swift.String)
+}
+public protocol ConnectionObserver : AnyObject {
+  func connected(to device: Netclearance_SDK.NCDevice)
+  func disconnected(from device: Netclearance_SDK.NCDevice)
+}
+extension ConnectionObserver {
+  public func connected(to device: Netclearance_SDK.NCDevice)
+  public func disconnected(from device: Netclearance_SDK.NCDevice)
+}
+public protocol ScanningObserver : AnyObject {
+  func scanningEvent(_ started: Swift.Bool)
+  func deviceDiscovered(deviec: Netclearance_SDK.NCDevice)
+}
+extension Netclearance_SDK.CurrentOperation : Swift.Equatable {}
+extension Netclearance_SDK.CurrentOperation : Swift.Hashable {}
