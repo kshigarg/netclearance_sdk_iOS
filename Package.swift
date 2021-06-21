@@ -1,10 +1,11 @@
+// swift-tools-version:5.3
 import PackageDescription
 let package = Package(
     name: "NetclearanceSDK",
     products: [
-        .library(name: "NetclearanceSDK", targets: ["Netclearance_SDK"])
+        .library(name: "NetclearanceSDK", targets: ["NetclearanceSDK"])
     ],
     targets: [
-        .target(name: "Netclearance_SDK", path: "Netclearance_SDK")
+        .binaryTarget(name: "NetclearanceSDK", path: "Netclearance_SDK.xcframework")
     ]
 )
