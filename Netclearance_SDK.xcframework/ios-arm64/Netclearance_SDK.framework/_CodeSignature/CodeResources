@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		90tQwmAnAvP7avpOQsVos11h/F4=
+		fGxoH+x1C5UQmcInncCpvi7yDzQ=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		i13GN0I19K8RjWrBN+8/hnwfXyA=
+		30GOMnfNJDB4t6KSETnlvX4wxlE=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		RE9oy0x0mHswBQffB6CZvnkkF8Q=
+		IDl1uWcgHtnVUuHJdcozdyCFnrg=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OHv/8JD3hArgCuZRD4Uq9GY7O9Y=
+		8FbkKcT6yuQgZKE8j1HjPqK04HU=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		i13GN0I19K8RjWrBN+8/hnwfXyA=
+		30GOMnfNJDB4t6KSETnlvX4wxlE=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		RE9oy0x0mHswBQffB6CZvnkkF8Q=
+		IDl1uWcgHtnVUuHJdcozdyCFnrg=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		OHv/8JD3hArgCuZRD4Uq9GY7O9Y=
+		8FbkKcT6yuQgZKE8j1HjPqK04HU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gyJaUBlt4BlcnSl8M/XV3uk9gWL9Og2nbQYHBlSUV/Y=
+			Br2np5qw87B/5YqjEKLDEWfY2oq4PrA/SLIy2x/dgUE=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iox9VfURBIa4yjA51nMRjtQJdKHHZcdf5TM4WmX4688=
+			l99iPsbWLmbhKMxG1CqtFeI7Ssk+OpPSRave1ymycIw=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wzLqF/QpCR1+7R7dQrwm65zXOoTMUs8T+WRY2IGsLgg=
+			ahE6elo6QI6RgyQ/7vJ5Lqr0qW5bTkho9BxmGeKJ0qI=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gyJaUBlt4BlcnSl8M/XV3uk9gWL9Og2nbQYHBlSUV/Y=
+			Br2np5qw87B/5YqjEKLDEWfY2oq4PrA/SLIy2x/dgUE=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iox9VfURBIa4yjA51nMRjtQJdKHHZcdf5TM4WmX4688=
+			l99iPsbWLmbhKMxG1CqtFeI7Ssk+OpPSRave1ymycIw=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wzLqF/QpCR1+7R7dQrwm65zXOoTMUs8T+WRY2IGsLgg=
+			ahE6elo6QI6RgyQ/7vJ5Lqr0qW5bTkho9BxmGeKJ0qI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

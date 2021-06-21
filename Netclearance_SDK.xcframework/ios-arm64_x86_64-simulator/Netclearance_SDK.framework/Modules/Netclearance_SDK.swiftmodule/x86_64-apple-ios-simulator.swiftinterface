@@ -13,6 +13,7 @@ public protocol RSSIObserver : AnyObject {
   func didReadRSSI(device: Netclearance_SDK.NCDevice, RSSI: Foundation.NSNumber?, error: Swift.Error?)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NCBluetoothManager : ObjectiveC.NSObject {
+  public static let sharedInstance: Netclearance_SDK.NCBluetoothManager
   public var isBluetoothON: Swift.Bool {
     get
   }

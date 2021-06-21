@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5gHmxPEWJORwgSEo8UvgmlS6tQ4=
+		8N16esX8TltPlpGHQk562/CY/lE=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		PcxMB0cv1XY50VPVLDTGH+HqDpw=
+		CvsFnbaF0WHuQ1izKUKwbYBjPNM=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bk6s2pem1pp3wfBA9MzlsLa+Xeo=
+		WIsURLkfS8/cTToQu+8TOHmWc6Q=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cPgMj8K2A6R5qmDih6MNP0+Vmho=
+		rNqJthAMtAo47uzQCLV4eYP/8qE=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		PcxMB0cv1XY50VPVLDTGH+HqDpw=
+		CvsFnbaF0WHuQ1izKUKwbYBjPNM=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		bk6s2pem1pp3wfBA9MzlsLa+Xeo=
+		WIsURLkfS8/cTToQu+8TOHmWc6Q=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		cPgMj8K2A6R5qmDih6MNP0+Vmho=
+		rNqJthAMtAo47uzQCLV4eYP/8qE=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Oz2Mx/mB2NWZ+RQFDhBbTSvn15k=
+		yB8PTvNy0ZpprJsPZRbMKm2d8Go=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		P6CFTgV8t04LxFCN82OjOSdNnXI=
+		LaQBqL9Ya+LHiZJPSXQ5OxWvsKk=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OF/o5/83d3/NxFGBz+SD1aAFIRc=
+		cW6jXmN8uAYh47JtFPgMfFIach4=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Oz2Mx/mB2NWZ+RQFDhBbTSvn15k=
+		yB8PTvNy0ZpprJsPZRbMKm2d8Go=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		P6CFTgV8t04LxFCN82OjOSdNnXI=
+		LaQBqL9Ya+LHiZJPSXQ5OxWvsKk=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		OF/o5/83d3/NxFGBz+SD1aAFIRc=
+		cW6jXmN8uAYh47JtFPgMfFIach4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -89,84 +89,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+nWWl8Mhp0kUiSIQIJ1i4J9KGw0IcssuBLPCtG4ggY=
+			7+C5NgtLjivjXKf5nbJnZdUasj8IPsdu8ZvSYN+owtk=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			123bD4kwZsFi65mMtZkEDVJVV0xHd3CMSxIMOpauqeI=
+			skit+zIwCM+wj/Q+iN0vl5xCAlBudBKolCXByi3NnBE=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mKR7IRvNNFE1ZmuFCQ9JzAbyDCpRCIkoEj9+lNl7lso=
+			NBdjpTOD3Q+xFWnoXP61Y8LR8x557tdZiepAUoV2eWg=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T+nWWl8Mhp0kUiSIQIJ1i4J9KGw0IcssuBLPCtG4ggY=
+			7+C5NgtLjivjXKf5nbJnZdUasj8IPsdu8ZvSYN+owtk=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			123bD4kwZsFi65mMtZkEDVJVV0xHd3CMSxIMOpauqeI=
+			skit+zIwCM+wj/Q+iN0vl5xCAlBudBKolCXByi3NnBE=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mKR7IRvNNFE1ZmuFCQ9JzAbyDCpRCIkoEj9+lNl7lso=
+			NBdjpTOD3Q+xFWnoXP61Y8LR8x557tdZiepAUoV2eWg=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BVsD66+IL2Q4TfMPjYAuTlU7Y7wfo1a6s5eO2HqX1kk=
+			z5bXsaR/3LVicZ6gNcM4IVy9FkaY26GcL7SJbiUFgaM=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wbqhBECWt0Klk3f7Nq9KVB34ZUPQXL95FCtpm+OIWLI=
+			VEKRZSxr0cToAyFxesD5qgelUJHA+yUJp+fuVzrvlFw=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ygB10VQZT+l7CU/QZVzGGMHk4sXLc//Ge/2oZpWQrXg=
+			KjN+b2AQTvJg4qbpPayOSbk39CpN7Z223KhOOnKIqHc=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BVsD66+IL2Q4TfMPjYAuTlU7Y7wfo1a6s5eO2HqX1kk=
+			z5bXsaR/3LVicZ6gNcM4IVy9FkaY26GcL7SJbiUFgaM=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wbqhBECWt0Klk3f7Nq9KVB34ZUPQXL95FCtpm+OIWLI=
+			VEKRZSxr0cToAyFxesD5qgelUJHA+yUJp+fuVzrvlFw=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ygB10VQZT+l7CU/QZVzGGMHk4sXLc//Ge/2oZpWQrXg=
+			KjN+b2AQTvJg4qbpPayOSbk39CpN7Z223KhOOnKIqHc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
