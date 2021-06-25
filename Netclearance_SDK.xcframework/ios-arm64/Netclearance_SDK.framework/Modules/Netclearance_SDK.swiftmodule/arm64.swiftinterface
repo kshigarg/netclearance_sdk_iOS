@@ -84,6 +84,7 @@ public enum NCDError {
   case s_error_exception
   case s_error_unauthorised
   case s_error_operation_timedout
+  case s_error_use_subscribe_method
 }
 extension NCDError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {

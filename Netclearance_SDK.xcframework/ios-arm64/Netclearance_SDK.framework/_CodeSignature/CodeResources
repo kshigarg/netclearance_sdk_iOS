@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ur2WA4aXyDIk2bdGy8ZgXTcNVpc=
+		VwSQ32pCez2Etq+RTnB5HPYzfrE=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		t5n/BcAX9KM7elBF1QGeJmxto5A=
+		sou8lJOSYOh2gHaChso/lKnfIBo=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4S78Kcq60odDz39aAWEWYiVQdCg=
+		yzGxLSHoFc2f9n+ZYgJDkXNBBLg=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		t5n/BcAX9KM7elBF1QGeJmxto5A=
+		sou8lJOSYOh2gHaChso/lKnfIBo=
 		</data>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		4S78Kcq60odDz39aAWEWYiVQdCg=
+		yzGxLSHoFc2f9n+ZYgJDkXNBBLg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,14 +72,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xaNPWvImobNuk4u7hHGt2Tb5pcQclltWmazWhfXbWYM=
+			3yVIXB5kvBNfNEmPXd31j7KpdJ+B2BJm8wkrjZDAABQ=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1kiEqAKL8pjrEDmzPRyPNtxOl/nm6NcBehxqnFDtfGY=
+			Q6QLHWKGsdOteri/QEgJi1FzB324LR0uxlorgFl+R84=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftdoc</key>
@@ -93,14 +93,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xaNPWvImobNuk4u7hHGt2Tb5pcQclltWmazWhfXbWYM=
+			3yVIXB5kvBNfNEmPXd31j7KpdJ+B2BJm8wkrjZDAABQ=
 			</data>
 		</dict>
 		<key>Modules/Netclearance_SDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1kiEqAKL8pjrEDmzPRyPNtxOl/nm6NcBehxqnFDtfGY=
+			Q6QLHWKGsdOteri/QEgJi1FzB324LR0uxlorgFl+R84=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
